@@ -17,17 +17,6 @@ a:hover {
     margin: 0 auto;
 }
 
-.icon {
-    width: 40px;
-    height: 40px;
-    background: #F3FBF8;
-    border-radius: 50%;
-    display: block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .btn {
     background: #09A66D;
     border-radius: 8px;
@@ -36,4 +25,47 @@ a:hover {
     font-family: 'DM Sans';
     color: #FFFFFF;
     cursor: pointer;
+}
+
+/* main__header */
+
+.main__header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    padding-right: 40px;
+}
+
+.nav__item:last-child {
+    padding-right: 0;
+}
+
+.nav__link {
+    font-family: 'DM Sans';
+    color: #222222;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+}
+
+.nav__icon {
+    width: 40px;
+    height: 40px;
+    background: #F3FBF8;
+    border-radius: 50%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
