@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     font-size: 18px;
+    font-weight: 400;
 }
 
 a:hover {
@@ -13,6 +14,7 @@ a:hover {
 
 .container {
     width: 1240px;
+    margin: 0 auto;
 }
 
 .icon {
@@ -24,4 +26,14 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btn {
+    background: #09A66D;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 23px;
+    font-family: 'DM Sans';
+    color: #FFFFFF;
+    cursor: pointer;
 }
