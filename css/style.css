@@ -161,7 +161,8 @@ a:hover {
     align-items: center;
 }
 
-.achievements__icon-wrapper {
+.achievements__icon-wrapper,
+.advantages__icon-wrapper {
     width: 56px;
     height: 56px;
     background: #F3FBF8;
@@ -184,4 +185,74 @@ a:hover {
     font-size: 18px;
     color: #000000;
     text-align: center;
+}
+
+/* advantages */
+
+.advantages__content {
+    margin-top: 140px;
+    position: relative;
+    margin-bottom: 140px;
+}
+
+.advantages__title {
+    margin-bottom: 20px;
+}
+
+.advantages__text {
+    margin-bottom: 56px;
+}
+
+.advantages__icon-wrapper {
+    width: 80px;
+    height: 80px;
+}
+
+.advantages_bg-img {
+    position: absolute;
+}
+
+.img__line {
+    z-index: -1;
+    top: -170px;
+    right: 0;
+}
+
+.advantages__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 160px;
+}
+
+.advantages__item-active {
+    background: #F3FBF8;
+}
+
+.advantages_icon-active {
+    background: #FFFFFF;
+}
+
+.advantages__content-title {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+    margin-bottom: 8px;
+}
+
+.advantages__content-text {
+    font-size: 14px;
+}
+
+.advantages__btn_down {
+    position: relative;
+    left: 240px;
+}
+
+.img__delivery {
+    right: 0;
+    top: 200px;
 }
