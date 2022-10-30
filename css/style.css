@@ -385,3 +385,34 @@ a:hover {
     top: 505px;
     z-index: 1;
 }
+
+/* app content */
+
+.app {
+    margin-top: 156px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn__download-app {
+    background: #F3FBF8;
+    border-radius: 50px;
+    font-family: 'DM Sans';
+    padding: 11px 24px;
+    color: #333333;
+    margin-bottom: 27px;
+    display: inline-block;
+}
+
+.app-title {
+    margin-bottom: 20px;
+}
+
+.app-text {
+    margin-bottom: 50px;
+}
+
+.app__stores-item {
+    margin-right: 24px;
+}
