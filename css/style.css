@@ -293,3 +293,95 @@ a:hover {
     right: -200px;
     top: 400px;
 }
+
+/* our customers */
+
+.our__customers-content {
+    padding-top: 96px;
+    position: relative;
+}
+
+.our__customers-title {
+    margin-bottom: 30px;
+}
+
+.our__customers-text {
+    margin-bottom: 40px;
+}
+
+.customer__name {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 30px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.our__customers-control {
+    display: flex;
+    position: relative;
+    left: 320px;
+    top: -40px;
+}
+
+.arrow__control {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+}
+
+.arrow__control-left {
+    border: 1px solid #CCCCCC;
+}
+
+.arrow__control-right {
+    background: #09A66D;
+}
+
+.overall__rating {
+    width: 220px;
+    height: 80px;
+    padding: 11px 21px;
+    background: #FFFFFF;
+    box-shadow: -15px 15px 25px rgba(0, 96, 60, 0.04);
+    border-radius: 12px;
+}
+
+.customers__list {
+    display: flex;
+}
+
+.customers__item {
+    margin-left: -10px;
+}
+
+.customers__item:first-child {
+    margin-left: 0;
+}
+
+.add__btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F3FBF8;
+}
+
+.our__customers-img {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.overall__rating {
+    position: absolute;
+    right: 270px;
+    top: 505px;
+    z-index: 1;
+}
