@@ -15,6 +15,7 @@ a:hover {
 .container {
     width: 1240px;
     margin: 0 auto;
+    position: relative;
 }
 
 .btn {
@@ -68,4 +69,119 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+}
+
+/* promo */
+
+.promo {
+    margin-top: 43px;
+    min-height: 850px;
+    background: #F3FBF8;
+}
+
+.promo__content {
+    padding-top: 93px;
+    position: relative;
+}
+
+.title {
+    font-family: 'Rosario';
+    font-weight: 700;
+    font-size: 70px;
+    color: #222222;
+}
+
+.promo__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-family: 'DM Sans';
+    color: #555555;
+}
+
+.promo__text {
+    text-align: center;
+}
+
+.btn__now {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn__now-text {
+    font-weight: 500;
+    text-align: center;
+    color: #222222;
+    margin-right: 20px;
+}
+
+.btn__now-link {
+    width: 64px;
+    height: 64px;
+    background: #09A66D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo__decoration-img {
+    position: absolute;
+    z-index: 0;
+}
+
+.img-1 {
+    top: -35px;
+    left: -100px;
+}
+
+.img-2 {
+    bottom: -550px;
+}
+
+.achievements__list {
+    position: absolute;
+    right: 0;
+    top: 370px;
+}
+
+.achievements__item {
+    width: 250px;
+    height: 116px;
+    background: #FFFFFF;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievements__icon-wrapper {
+    width: 56px;
+    height: 56px;
+    background: #F3FBF8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.achievements__content-title {
+    font-family: 'DM Sans';
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+}
+
+.achievements__content-text {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
 }
