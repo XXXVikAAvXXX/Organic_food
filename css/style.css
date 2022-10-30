@@ -105,13 +105,16 @@ a:hover {
     text-align: center;
 }
 
-.btn__now {
+.btn__order {
     margin-top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn__now {
     display: flex;
     align-items: center;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .btn__now-text {
@@ -255,4 +258,38 @@ a:hover {
 .img__delivery {
     right: 0;
     top: 200px;
+}
+
+/* special items */
+
+.special__items {
+    background: #F3FBF8;
+    min-height: 832px;
+    position: relative;
+}
+
+.special__items-content {
+    position: absolute;
+    padding-top: 120px;
+    right: 0;
+}
+
+.special__items-img {
+    position: absolute;
+    top: 80px;
+}
+
+.special__items-title {
+    margin-bottom: 20px;
+}
+
+.special__items-text {
+    margin-bottom: 82px;
+}
+
+.special__items-decoration {
+    position: absolute;
+    z-index: 0;
+    right: -200px;
+    top: 400px;
 }
